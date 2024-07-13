@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 11, 2024, 10:25:12 PM
+    Author     : admin
+*/
+
+.booking_form {
+    display: block; /* Thay đổi từ inline-block để form chiếm toàn bộ chiều ngang */
+    text-align: center;
+    margin: 50px auto; /* Giãn cách form với các phần tử xung quanh */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.booking_input_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Thêm khoảng cách giữa các dòng input */
+}
+
+.booking_input {
+    margin: 0 10px; /* Thêm khoảng cách giữa các input */
+}
+
+.booking_button {
+    display: block;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+.image_content{
+    background-image: url(./assets/images/property-01.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 20%;
+}
